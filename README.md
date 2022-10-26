@@ -8,6 +8,10 @@ Newest
  
 Oldest
 
+ - Updated Leaderboard page, Added Playercard Components and Leaderboard data to display
+![Leaderboard Page 1 0](https://user-images.githubusercontent.com/52366381/198148276-f296759a-3f61-4d9b-8e5e-6590f93c7997.JPG)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
