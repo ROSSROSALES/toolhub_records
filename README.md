@@ -11,6 +11,7 @@ Oldest
 
 
  - Improved Navbar styling with spacing and increased text size. Added spinning Logo for visuals
+
  Nav bar Now
  ![Navbar 1 0](https://user-images.githubusercontent.com/52366381/198153885-f7b8e246-c580-49d6-a6b7-f2c0c0587849.JPG)
  Nav bar before (below)
