@@ -1,0 +1,40 @@
+.Player-card{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0px;
+  padding: 8px 0px;
+  font-family: monospace;
+  color: white;
+  border-style: outset;
+}
+
+.Player-name{
+  text-align: left;
+  font-size: calc(10px + 1vmin);
+  padding-right: 5%;
+  padding: 10px;
+}
+
+.Player-points {
+  text-align: right;
+  font-size: calc(12px + 1vmin);
+  padding: 10px;
+}
+
+@media only screen and (max-width: 720px) {
+  .Player-photo {
+      width: 70%;
+  }
+  .Player-card {
+      flex-direction: column-reverse;
+  }
+  .Player-info {
+      margin-left: 0px;
+      margin-top: 12px;
+  }
+  .Player-tags {
+      max-width: 100%;
+  }
+}
