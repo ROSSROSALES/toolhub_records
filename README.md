@@ -1,6 +1,7 @@
 # History
 Newest
 
+ - Updated Leaderboard page, Added Playercard Components and Leaderboard data to display
  - Add Nav Bar to navigate between pages
  - Add 3 web pages with unique routes/url
  - Initialized react app added Jest for testing
