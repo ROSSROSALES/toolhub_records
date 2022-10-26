@@ -1,12 +1,21 @@
 # History
 Newest
 
+ - Improved Navbar styling with spacing and increased text size. Added spinning Logo for visuals
  - Updated Leaderboard page, Added Playercard Components and Leaderboard data to display
  - Add Nav Bar to navigate between pages
  - Add 3 web pages with unique routes/url
  - Initialized react app added Jest for testing
  
 Oldest
+
+
+ - Improved Navbar styling with spacing and increased text size. Added spinning Logo for visuals
+ Nav bar Now
+ ![Navbar 1 0](https://user-images.githubusercontent.com/52366381/198153885-f7b8e246-c580-49d6-a6b7-f2c0c0587849.JPG)
+ Nav bar before (below)
+ ![Navbar](https://user-images.githubusercontent.com/52366381/198153869-fe53f65e-ae54-4015-9ec5-ca38cef80edc.JPG)
+
 
  - Updated Leaderboard page, Added Playercard Components and Leaderboard data to display
 ![Leaderboard Page 1 0](https://user-images.githubusercontent.com/52366381/198148276-f296759a-3f61-4d9b-8e5e-6590f93c7997.JPG)
