@@ -1,3 +1,11 @@
+# History
+Newest
+
+ - Add Nav Bar to navigate between pages
+ - Add 3 web pages with unique routes/url
+ - Initialized react app added Jest for testing
+Oldest
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
