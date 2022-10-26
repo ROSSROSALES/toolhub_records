@@ -1,13 +1,15 @@
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   overflow: hidden;
   background-color: #333;
 }
 
 li {
   float: left;
+  font-family: monospace;
+  font-size: 2vmin;
 }
 
 a {
@@ -25,3 +27,29 @@ a:hover {
 /* a:active {
   background-color: #04AA6D;
 } */
+
+
+.App-logo {
+  position: absolute;
+  display: block;
+  left: 49%;
+  top: 12px;
+  height: 3.5vmin;
+  padding: 0px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
