@@ -1,10 +1,14 @@
 
-import Home from "./Home.js";
+import Nav from "./Components/Nav/Nav"
+import Home from "./Components/Home/Home";
+import Leaderboard from "./Components/Leaderboard/Leaderboard";
+import Records from "./Components/Records/Records";
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 function App() {
   return (
     <>
+    <Nav />
       <Router>
 
           <Routes>
@@ -12,7 +16,10 @@ function App() {
             <Route path="/" element={ <Home /> }>
             </Route>
 
-            <Route path="/" element={ <Home /> }>
+            <Route path="/Leaderboard" element={ <Leaderboard /> }>
+            </Route>
+
+            <Route path="/Records" element={ <Records /> }>
             </Route>
 
           </Routes>
