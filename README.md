@@ -1,6 +1,7 @@
 # History
 Newest
 
+ - Updated Records Page and Added Sample Data to visualize
  - Improved Navbar styling with spacing and increased text size. Added spinning Logo for visuals
  - Updated Leaderboard page, Added Playercard Components and Leaderboard data to display
  - Add Nav Bar to navigate between pages
@@ -9,6 +10,9 @@ Newest
  
 Oldest
 
+ - Updated Records Page and Added Sample Data to visualize
+ 
+ ![Records Page 1 0](https://user-images.githubusercontent.com/52366381/198184906-a539030d-584c-4859-bbb7-2e0f003172c9.JPG)
 
  - Improved Navbar styling with spacing and increased text size. Added spinning Logo for visuals
 
@@ -19,6 +23,7 @@ Oldest
 
 
  - Updated Leaderboard page, Added Playercard Components and Leaderboard data to display
+ 
 ![Leaderboard Page 1 0](https://user-images.githubusercontent.com/52366381/198148276-f296759a-3f61-4d9b-8e5e-6590f93c7997.JPG)
 
 
