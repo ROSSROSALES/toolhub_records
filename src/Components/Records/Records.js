@@ -1,19 +1,57 @@
 import './Records.css';
+import { Records_data } from '../Data/Records_data';
 
 function Records() {
+  const data = Records_data;
+  
+  const PercentMissing = () => {
+    return (data.MissingTools/data.TotalTools*100).toFixed(2) +' %'
+  }
+
   return (
-    <div className="App">
-          <header className="App-header">
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Records
-            </a>
-          </header>
+    <>
+      <div className="Records">
+
+        <header className="header">
+            Records
+        </header>
+        
+        <div className='content'>
+
+          <div class='grid-container'>
+            <div class='grid-item' >
+              Total Tools
+              <p>
+                {data.TotalTools}
+              </p>
+            </div>
+
+            <div class='grid-item' >
+              Tools Missing Info
+              <p>
+                {data.MissingTools}
+              </p>
+            </div>
+
+            <div class='grid-item' >
+              % Missing Info
+              <p>
+                {/* {data.PercentMissing} */}
+                {PercentMissing()}
+              </p>
+            </div>
+
+            <div class='grid-item'>
+              Tools Edited
+              <p>
+                {data.ToolsEdited}
+              </p>
+            </div>
+
+          </div>
         </div>
+      </div>
+    </>
   );
 };
 export default Records;
