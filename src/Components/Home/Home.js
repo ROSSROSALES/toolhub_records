@@ -1,21 +1,24 @@
-import logo from './logo.svg';
 import './Home.css';
 
 function Home() {
+
   return (
-    <div className="App">
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Home
-            </a>
-          </header>
+    <>
+    <div className="Home">
+      <header className="header">
+        ToolHub
+      </header>
+
+      <div class="container">
+        <div className="difficulty">
+          <a href="/game" class='button' Style="background-color: #2DD22E"><span>Easy</span></a>
+          <a href="/game" class='button' Style="background-color: #2E2DD2"><span>Medium</span></a>
+          <a href="/game" class='button' Style="background-color: #D22E2D"><span>Hard</span></a>
         </div>
+      </div>
+      
+    </div>
+    </>
   );
 };
 export default Home;

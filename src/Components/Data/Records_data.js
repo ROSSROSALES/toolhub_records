@@ -1,6 +1,4 @@
 // Data pulled from API goes here
-
-
 export const Records_data=
   {
     TotalTools: 2703,

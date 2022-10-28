@@ -48,6 +48,13 @@ function Records() {
               </p>
             </div>
 
+            <div class='grid-item'>
+              Tools Skipped
+              <p>
+                {'150'}
+              </p>
+            </div>
+
           </div>
         </div>
       </div>

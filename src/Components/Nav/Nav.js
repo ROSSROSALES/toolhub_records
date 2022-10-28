@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./Nav.css";
 import logo from './wikilogo.png';
 
@@ -8,9 +8,9 @@ function Nav() {
     <>
     <div>
     <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/leaderboard">Leaderboard</a></li>
-      <li><a href="/records">Records</a></li>
+      <li><a className="nav" href="/">Home</a></li>
+      <li><a className="nav" href="/leaderboard">Leaderboard</a></li>
+      <li><a className="nav" href="/records">Records</a></li>
     </ul>
     </div>
     <img src={logo} className="App-logo" alt="logo" />
