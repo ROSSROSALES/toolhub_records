@@ -7,8 +7,6 @@
 }
 
 .header {
-  /* background-color: #282c34;
-  min-height: 10vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +20,6 @@
 }
 
 .grid-item {
-
   font-size: calc(10px + 1vmin);
   color: white;
   border-style: outset;
@@ -34,21 +31,3 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
 }
-
-
-
-
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-} */

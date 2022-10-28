@@ -12,7 +12,7 @@ li {
   font-size: 2vmin;
 }
 
-a {
+a.nav {
   display: block;
   padding: 8px;
   color: white;
@@ -20,7 +20,7 @@ a {
 }
 
 
-a:hover {
+a.nav:hover {
   background-color: #111;
 } 
 
