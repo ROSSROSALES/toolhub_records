@@ -1,6 +1,7 @@
 # History
 Newest
 
+ - Add Badges to Users in Leaderboard page
  - Updated Records Page and Added Sample Data to visualize
  - Improved Navbar styling with spacing and increased text size. Added spinning Logo for visuals
  - Updated Leaderboard page, Added Playercard Components and Leaderboard data to display
@@ -9,6 +10,10 @@ Newest
  - Initialized react app added Jest for testing
  
 Oldest
+
+ - Add Badges to Users in Leaderboard page
+ 
+ ![Leaderboard Page 1 1](https://user-images.githubusercontent.com/52366381/198440061-8e6f8927-1086-49a1-ba13-ee7ed173f4b8.JPG)
 
  - Updated Records Page and Added Sample Data to visualize
  
