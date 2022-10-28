@@ -7,21 +7,30 @@ function Leaderboard() {
   return (
     <>
     <div className="Leaderboard">
-
-          <header className="header">
-              Leaderboard
-          </header>
-
-          <div className='content'>
-            {data
-              .sort( (a,b) => a.points > b.points ? -1 : 1) // Sorts points, Descending from highest point player
-              .map((Player) => {
-                return (
-                  <>
-                    <PlayerCard Player={Player} />
-                  </>);
-            })}
+      <header className="header">
+          Leaderboard
+      </header>
+      <div class="sub-headers">
+      <div className='sub-header1'>
+            User
           </div>
+        <div className='sub-header2'>
+            Edits
+        </div>
+      </div>
+
+      <div className='content'>
+ 
+        
+        {data
+          .sort( (a,b) => a.points > b.points ? -1 : 1) // Sorts points, Descending from highest point player
+          .map((Player) => {
+            return (
+              <>
+                <PlayerCard Player={Player} />
+              </>);
+        })}
+      </div>
 
       </div>
       </>
