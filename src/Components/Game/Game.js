@@ -23,6 +23,9 @@ function Game() {
             {data[0]['missing_fields'][1]} <input type="text"></input>
           </div>
           <div class='item'>
+            {'API Link'} <input type="text"></input>
+          </div>
+          <div class='item'>
             {data[0]['missing_fields'][2]} <input type="text"></input>
           </div>
           <div class='item'>
