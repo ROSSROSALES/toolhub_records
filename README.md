@@ -1,6 +1,8 @@
 # History
 Newest
 
+ - Updated Home Page Buttons with Subtitles and Organized Game Page Interface
+  - Updated Spacing of Leaderboard and Records page
  - Updated Home page and Added Game page
  - Add Badges to Users in Leaderboard page
  - Updated Records Page and Added Sample Data to visualize
@@ -11,6 +13,18 @@ Newest
  - Initialized react app added Jest for testing
  
 Oldest
+
+
+ - Updated Home Page Buttons with Subtitles and Organized Game Page Interface
+ 
+ ![Home Page 1 1](https://user-images.githubusercontent.com/52366381/198510679-71d46302-5766-4b86-b228-9f266cd48249.JPG)
+ ![Game Page 1 1](https://user-images.githubusercontent.com/52366381/198510686-1de6579e-b1eb-4e07-ad46-8dd78c2ff24b.JPG)
+
+
+ - Updated Spacing of Leaderboard and Records page
+ 
+ ![Leaderboard Page 1 2](https://user-images.githubusercontent.com/52366381/198510951-6d1b359f-d0df-4cd7-bb70-7ddd01e24110.JPG)
+
 
  - Home page updated and Game page created
  
