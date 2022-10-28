@@ -4,6 +4,7 @@
 # History
 Newest
 
+ - Deployed Application to Firebase
  - Updated Home Page Buttons with Subtitles and Organized Game Page Interface
   - Updated Spacing of Leaderboard and Records page
  - Updated Home page and Added Game page
