@@ -20,44 +20,55 @@
   color: white;
   padding-left: 10%;
   padding-bottom: 10px;
+
+}
+
+.container-interact {
+  display: inline-flex;
+  min-width: 90%;
+
+  justify-content:space-between;
 }
 
 .missing-info {
+  display: grid;
+  grid-template-rows: repeat(3, 80px);
+  gap: 10px;
+  grid-auto-flow: column;
+  grid-auto-rows: 600px 500px;
+
   font-size: calc(8px + 1.5vmin);
   color: white;
-  padding-left: 12%;
+  margin-left: 12%;
+  padding-right: 10%;
+
 }
 
 .item {
-  margin: 16px 8px;
+  margin: 16px 25px;
+
 }
 
-.difficulty {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 10%;
-}
+.button-wrapper { 
 
-.gamebutton-position {
-  /* position: absolute; */
 }
 
 .gamebutton {
   font-family: monospace;
-  display: inline-block;
+  display: inline;
   border-radius: 4px;
   border: none;
   color: white;
   text-align: center;
   font-size: calc(10px + 2vmin);
-  padding: 20px;
+  padding: 30px;
   height: 150px;
-  width: min(50%, 300px);
+  width: 270px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 15px;
 }
+
 .gamebutton span {
   cursor: pointer;
   display: inline-block;
@@ -84,24 +95,17 @@
 }
 
 .webpage {
-  float: right;
-  margin-right: 5%;
-  margin-bottom: 200px;
-  width: min(70%, 1200px);
+  margin-left: 11%;
+  width: min(80%, 1500px);
   height: 600px;
 }
 
 .resizer {
   display:flex;
-  /* margin:0;
-  padding:0; */
   resize:both;
   overflow:hidden;
 }
+
 .resizer > .resized {
   flex-grow:1;
-  /* margin:0;
-  padding:0; */
   border:0 }
-
-.ugly { background: white; border:4px black; }
