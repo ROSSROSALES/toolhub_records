@@ -1,6 +1,7 @@
 # History
 Newest
 
+ - Updated Home page and Added Game page
  - Add Badges to Users in Leaderboard page
  - Updated Records Page and Added Sample Data to visualize
  - Improved Navbar styling with spacing and increased text size. Added spinning Logo for visuals
@@ -11,6 +12,13 @@ Newest
  
 Oldest
 
+ - Home page updated and Game page created
+ 
+ ![Home Page 1 0](https://user-images.githubusercontent.com/52366381/198449369-d9e077e9-629b-4046-94ce-6618d89dbce5.JPG)
+ ![Game Page 1 0](https://user-images.githubusercontent.com/52366381/198449431-afddfe55-794c-4220-92f1-05b940d37c8e.JPG)
+
+ 
+ 
  - Add Badges to Users in Leaderboard page
  
  ![Leaderboard Page 1 1](https://user-images.githubusercontent.com/52366381/198440061-8e6f8927-1086-49a1-ba13-ee7ed173f4b8.JPG)
