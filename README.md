@@ -71,6 +71,8 @@ Packages used:
 # History
 Newest
 
+
+ - Updated Records page with mock pie charts for visualization
  - Deployed Application to Firebase
  - Updated Home Page Buttons with Subtitles and Organized Game Page Interface
   - - Updated Spacing of Leaderboard and Records page
@@ -86,6 +88,10 @@ Newest
 Oldest
 
 # Through the Ages (History Visualized)
+
+ - Updated Records page with mock pie charts for visualization
+ 
+ ![Records Page 1 1](https://user-images.githubusercontent.com/52366381/199175610-412e8044-f3cb-4196-85d7-aaee97326977.JPG)
 
  - Updated Home Page Buttons with Subtitles and Organized Game Page Interface
  
