@@ -1,19 +1,91 @@
+# Link
+[Toolhub Records](https://toolhub-records.web.app/) 
+
+# Introduction
+
+Hi WikiMedia community!
+
+Toolhub is a community catalog of tools used across many Wiki projects.  
+However, we need to make sure the information is complete and up to date!
+
+This web application gamifies the tool editor experience!
+
+Please feel free to contact me about any thoughts to improve on this application or if you need any help with contributing :)
+
+# Discussion and Thoughts Behind The Build
+
+In order to gamify Toolhub editing, I wanted to test how the current editing tool feels, and build upon that foundation.
+While checking to see how the editing tools functions, I decided to also research/check other tools and their UI for inspiration.  
+Tools noted for inspiration were:  
+https://citationhunt.toolforge.org/en?id=90406930  
+https://hay.toolforge.org/depictor/  
+https://hay.toolforge.org/sdsearch/#  
+
+## Questions after research:
+
+How can I make searching fun?  
+
+Simplify the User experience as much as possible.  
+Throughout my life experience so far, I have learned that accessibility to a resource is a major determining factor for a useful product.  
+In other words, if we can't access the resource, we don't have a resource.  
+
+For our example, if I want to edit a tool, how can I find the missing fields easier?  
+How much effort must I put in to fill in the blanks?  
+
+This is where I thought one of the main obstacles were.  
+ Thinking..  
+	Interface:
+		- Don't overwhelm the user with complexity, this can sway them away  
+		- Don't force the user into a single choice, we don't force our friends to play a game they don't want to play, right?  
+		- Give 1-3 choices, this simplifies experience:  
+			   - - Choices can be divided by the experience a user wants, Easy, Medium, Hard (number of missing fields)  
+			   - - Harder the choice, the more points obtained (partial ELO/rankning system through Leaderboard; provides incentive)  
+			   - - Give rewards to feel participation/achievement experience
+
+## Final Idea (..so far)  
+**1. User goes to Home page**  
+**2. Chooses a difficulty mode => directs to Game Page**
+  - the difficulty is based on the number of missing fields in the tool.
+  - the more missing fields there are, the higher amount of points a User can earn
+  - when a User reaches a certain milestone on their profile, they can earn badges/achievements to show off and be proud of  
+  
+**3. Game page interface**
+  - User is presented with a tool's missing fields ( based on tool editor, there can be URLs filled in with text input, or more with Dropdowns, checkboxes )  
+  - Under the missing fields, there is a embedded html link to the tools webpage so searching for the information would be faster than alt+tab between editor and page
+  - on the top right, there is the option to submit the data edited, or request to go to the next tool
+
+# Setup
+
+2 Steps: 
+
+1. Clone Repo
+
+2. In Root Directory, run: `npm start`
+
+
+Packages used:
+
+- React Router Dom to manage Webpages
+- Jest and ESLint to test working application during changes
+
 # History
 Newest
 
+ - Deployed Application to Firebase
  - Updated Home Page Buttons with Subtitles and Organized Game Page Interface
-  - Updated Spacing of Leaderboard and Records page
- - Updated Home page and Added Game page
- - Add Badges to Users in Leaderboard page
- - Updated Records Page and Added Sample Data to visualize
- - Improved Navbar styling with spacing and increased text size. Added spinning Logo for visuals
+  - - Updated Spacing of Leaderboard and Records page
+ - Updated Home page with 3 Button choices for difficulty in game, and Added main components for Game page interface
+ - Added Badges to Users in Leaderboard page
+ - Updated Records Page to show mock data and Added Sample data file to visualize
+ - Improved Navbar styling with spacing and increased text size for readability. Added spinning Logo for visual enjoyment
  - Updated Leaderboard page, Added Playercard Components and Leaderboard data to display
- - Add Nav Bar to navigate between pages
- - Add 3 web pages with unique routes/url
+ - Added Nav Bar to navigate between the 3 web pages
+ - Added 3 web pages with unique routes/url { Home, Leaderboard, and Records Dashboard }
  - Initialized react app added Jest for testing
  
 Oldest
 
+# Through the Ages (History Visualized)
 
  - Updated Home Page Buttons with Subtitles and Organized Game Page Interface
  
@@ -26,22 +98,20 @@ Oldest
  ![Leaderboard Page 1 2](https://user-images.githubusercontent.com/52366381/198510951-6d1b359f-d0df-4cd7-bb70-7ddd01e24110.JPG)
 
 
- - Home page updated and Game page created
+ - Updated Home page with 3 Button choices for difficulty in game, and Added main components for Game page interface
  
  ![Home Page 1 0](https://user-images.githubusercontent.com/52366381/198449369-d9e077e9-629b-4046-94ce-6618d89dbce5.JPG)
  ![Game Page 1 0](https://user-images.githubusercontent.com/52366381/198449431-afddfe55-794c-4220-92f1-05b940d37c8e.JPG)
 
- 
- 
  - Add Badges to Users in Leaderboard page
  
  ![Leaderboard Page 1 1](https://user-images.githubusercontent.com/52366381/198440061-8e6f8927-1086-49a1-ba13-ee7ed173f4b8.JPG)
 
- - Updated Records Page and Added Sample Data to visualize
+ - Updated Records Page to show mock data and Added Sample data file to visualize
  
  ![Records Page 1 0](https://user-images.githubusercontent.com/52366381/198184906-a539030d-584c-4859-bbb7-2e0f003172c9.JPG)
 
- - Improved Navbar styling with spacing and increased text size. Added spinning Logo for visuals
+ - Improved Navbar styling with spacing and increased text size for readability. Added spinning Logo for visual enjoyment
 
  Nav bar Now
  ![Navbar 1 0](https://user-images.githubusercontent.com/52366381/198153885-f7b8e246-c580-49d6-a6b7-f2c0c0587849.JPG)
@@ -52,75 +122,3 @@ Oldest
  - Updated Leaderboard page, Added Playercard Components and Leaderboard data to display
  
 ![Leaderboard Page 1 0](https://user-images.githubusercontent.com/52366381/198148276-f296759a-3f61-4d9b-8e5e-6590f93c7997.JPG)
-
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
