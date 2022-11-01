@@ -12,7 +12,7 @@ function PlayerCard({ Player }) {
           <p>Badges: 
             {Player.badges.map((badge) => {
               return (
-              <img class="badge" src={badge} />
+              <img class="badge" alt="player badges" src={badge} />
               )
             }
             )

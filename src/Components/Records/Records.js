@@ -38,6 +38,7 @@ function Records() {
               <p>
                 {/* {data.PercentMissing} */}
                 {PercentMissing()}
+                <img class="chart" alt="missing pie chart" src={data.PieChart1} />
               </p>
             </div>
 
@@ -45,6 +46,7 @@ function Records() {
               Tools Edited
               <p>
                 {data.ToolsEdited}
+                <img class="chart" alt="edited pie chart" src={data.PieChart2} />
               </p>
             </div>
 

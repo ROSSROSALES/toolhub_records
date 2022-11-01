@@ -32,3 +32,10 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
 }
+
+.chart {
+  padding-top: 10px;
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
