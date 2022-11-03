@@ -6,9 +6,14 @@ function Home() {
     <>
     <div className="Home">
       <header className="header-home">
-        ToolHub
+         Toolhub
       </header>
-
+      <div className="home-description">
+        Gamified Toolhub:
+      </div>
+      <div className="home-description2">
+        "a more streamlined and gamified way with a dedicated UI could make editing faster and more enjoyable."
+      </div>
       <div class="container">
         <div className="difficulty">
           
@@ -38,11 +43,17 @@ function Home() {
             <div className="points">
                 4 points
             </div>
-            
           </a>
         </div>
       </div>
+      <div className="home-description3">
+        Choose your difficulty
+      </div>
 
+      <div className="home-description2">
+        The difficulty is based on how many missing fields a tool has. <br></br>
+        The more missing tools, the more points you can score
+      </div>
     </div>
     </>
   );
