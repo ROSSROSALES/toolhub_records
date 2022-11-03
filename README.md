@@ -71,6 +71,7 @@ Packages used:
 # History
 Newest
 
+ - Updated Game Page with descriptors, Submit Button clears fields, and Tool Data reflects missing field titles
  - Updated Home page with descriptions for UI
  - Updated Records page with mock pie charts for visualization
  - Deployed Application to Firebase
@@ -88,6 +89,10 @@ Newest
 Oldest
 
 # Through the Ages (History Visualized)
+
+ - Updated Game Page with descriptors, Submit Button clears fields, and Tool Data reflects missing field titles
+ 
+ ![Game Page 1 2](https://user-images.githubusercontent.com/52366381/199792695-cd5fa6dc-5f2d-41c6-8f40-6aff54a08eba.JPG)
 
  - Updated Home page with descriptions for UI
  
