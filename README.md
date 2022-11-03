@@ -71,7 +71,7 @@ Packages used:
 # History
 Newest
 
-
+ - Updated Home page with descriptions for UI
  - Updated Records page with mock pie charts for visualization
  - Deployed Application to Firebase
  - Updated Home Page Buttons with Subtitles and Organized Game Page Interface
@@ -88,6 +88,10 @@ Newest
 Oldest
 
 # Through the Ages (History Visualized)
+
+ - Updated Home page with descriptions for UI
+ 
+ ![Home Page 1 2](https://user-images.githubusercontent.com/52366381/199784220-051df7ef-8353-480f-9d33-76e6fb2f4e6e.JPG)
 
  - Updated Records page with mock pie charts for visualization
  
