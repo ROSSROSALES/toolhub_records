@@ -49,8 +49,15 @@
 
 }
 
-.button-wrapper { 
+.example { 
+  margin-left: 12%;
+  color: white;
+}
 
+.example2 { 
+  text-align: right;
+  margin-right: 10%;
+  color: white;
 }
 
 .gamebutton {
