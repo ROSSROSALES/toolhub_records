@@ -16,11 +16,36 @@
   color: white;
 }
 
+.home-description {
+  color: white;
+  text-align: center;
+  margin-right: 45%;
+  margin-top: 4%;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.home-description2 {
+  color: white;
+  text-align: center;
+  opacity: 0.8; 
+  font-size: 20px;
+  font-style: italic; 
+}
+
+.home-description3 {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
 .container .difficulty {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 8%;
+  margin-top: 1%;
+  /* padding-top: %; */
 }
 
 .button {
