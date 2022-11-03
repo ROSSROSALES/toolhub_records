@@ -1,9 +1,16 @@
+import { useState } from "react";
+
 function LanguageDropDown() {
+  const [value, setValue] = useState('');
+
+  const handleChange = (e) => {
+    setValue(e.target.value);
+  };
 
   return (
     <>
-    <select>
-    <option value="">--Select Example--</option>
+    <select value={value} onChange={handleChange}>
+      <option value="">--Select Example--</option>
       <option value="English">English</option>
       <option value="Spanish">Spanish</option>
       <option value="French">French</option>
